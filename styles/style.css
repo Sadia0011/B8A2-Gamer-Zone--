@@ -314,10 +314,12 @@ online games styles */
     }
 
     .gamer-content,
-    .gamer-content .section-title {
+    .gamer-content .section-title,
+    .play-game-content,
+    .online-game-content {
         text-align: center;
         width: 100%;
-        margin: 20px;
+        margin: 10px;
     }
 
     .gamer-container .gamer-image {
@@ -366,16 +368,19 @@ online games styles */
 @media screen and (min-width:576px) and (max-width:960px) {
 
     .banner,
-    .gamer-container {
+    .gamer-container,
+    .online-game-container {
         flex-direction: column;
         align-items: center;
     }
 
     .gamer-content,
-    .gamer-content .section-title {
+    .gamer-content .section-title,
+    .online-game-content,
+    .play-game-content {
         text-align: center;
         width: 100%;
-        margin: 50px;
+        margin: 30px;
     }
 
     .video-img-div {
@@ -384,5 +389,37 @@ online games styles */
 
     .videos-container {
         margin: 10px;
+    }
+
+    .play-game-container {
+        flex-direction: column-reverse;
+    }
+
+    #online-pic-1 {
+        width: 100%;
+        margin: auto;
+        /* margin-left: 100px; */
+        /* margin-right: -200px; */
+    }
+
+    #online-pic-2 {
+        position: relative;
+        width: 60%;
+        top: -60px;
+        left: -40px;
+    }
+
+    #play-pic-1 {
+        width: 100%;
+        margin: auto;
+        /* margin-left: -60px; */
+        /* margin-right: -200px; */
+    }
+
+    #play-pic-2 {
+        position: relative;
+        width: 60%;
+        top: -60px;
+        right: -100px;
     }
 }
