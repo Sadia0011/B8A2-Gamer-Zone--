@@ -277,6 +277,72 @@ online games styles */
 }
 
 
+/* career styles */
+.career-container {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    padding: 50px 160px;
+}
+
+.career-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.career-description {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.career-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.career-list li {
+    list-style: none;
+}
+
+.career-name a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.career-name {
+    text-align: start;
+}
+
+.career-list-location {
+    text-align: right end;
+}
+
+.career-btn {
+    border-radius: 48px;
+    background-color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    color: var(--primary-color);
+    padding: 21px 40px;
+    margin-top: 30px;
+}
+
+.career-container img {
+    margin-top: 60px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
 
 /* responsive media query */
 /* mobile device */
