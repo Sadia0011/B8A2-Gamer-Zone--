@@ -474,17 +474,6 @@ online games styles */
 
 /* game styles */
 .game-container {
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    max-width: 1140px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 20px;
-    place-items: center; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -583,8 +572,15 @@ footer a {
         align-items: center;
     }
 
-    .career-container {
-        padding: 5px;
+    .career-container,
+    .gamer-container {
+        padding: 3px;
+    }
+
+
+
+    .career-list {
+        font-size: 0.8rem;
     }
 
     .play-game-container {
@@ -612,7 +608,11 @@ footer a {
         width: 100%;
     }
 
-    .gamer-content,
+    .gamer-content {
+        width: calc(100% - 3px);
+        text-align: center;
+    }
+
     .gamer-content .section-title,
     .play-game-content,
     .online-game-content {
@@ -686,6 +686,7 @@ footer a {
         gap: 5px;
         align-content: center;
 
+
     }
 
     .terms {
@@ -701,7 +702,8 @@ footer a {
     }
 
     footer {
-        padding: 20px;
+        padding: 10px;
+        margin: 0;
     }
 
     .my-footer ul li a {
@@ -729,11 +731,16 @@ footer a {
 
     .career-container {
         padding: 10px;
+        margin-right: -30px;
     }
 
     .game-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gamer-container {
+        margin-right: 0;
     }
 
     .career-content,
@@ -834,6 +841,7 @@ footer a {
 
     footer {
         padding: 20px;
+        margin-right: -30px;
     }
 
     .my-footer ul li a {
