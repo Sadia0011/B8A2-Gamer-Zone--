@@ -455,14 +455,16 @@ footer a {
     }
 
     .online-game-content,
-    .play-game-content {
+    .play-game-content,
+    footer {
         /* width: 100%; */
         text-align: center;
     }
 
     .banner,
     .online-game-container,
-    .play-game-container {
+    .play-game-container,
+    footer {
         margin: 10px;
 
     }
@@ -518,6 +520,16 @@ footer a {
         width: 60%;
         top: -80px;
         right: -120px;
+    }
+
+    footer ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+
+    .footer-title {
+        text-align: center;
     }
 
 }
